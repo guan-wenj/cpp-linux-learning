@@ -28,12 +28,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1e19d934-526e-4cf0-8dc6-1f6ba6f13d35" name="更改" comment="尝试多项目">
-      <change afterPath="$PROJECT_DIR$/code/sep25/rvalue.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/editor.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/sep25/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/code/sep25/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/code/sep25/primary.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/code/sep25/primary.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/sep25/1.md" beforeDir="false" afterPath="$PROJECT_DIR$/note/sep25/1.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/primary" beforeDir="false" afterPath="$PROJECT_DIR$/primary" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -107,7 +104,7 @@
       <window_info id="Commit_Guest" show_stripe_button="false" />
       <window_info id="Pull Requests" />
       <window_info id="Learn" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.32975262" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2249349" />
       <window_info id="Commit" order="1" weight="0.32975262" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Database Changes" />
@@ -124,7 +121,7 @@
       <window_info anchor="bottom" id="Services" order="4" />
       <window_info anchor="bottom" id="CMake" order="5" />
       <window_info anchor="bottom" id="Messages" order="6" weight="0.32966396" />
-      <window_info active="true" anchor="bottom" id="Run" order="7" visible="true" weight="0.32966396" />
+      <window_info active="true" anchor="bottom" id="Run" order="7" visible="true" />
       <window_info anchor="bottom" id="Debug" order="8" weight="0.32966396" />
       <window_info anchor="bottom" id="Build" order="9" weight="0.32966396" />
       <window_info anchor="right" id="Python Console" />
@@ -139,11 +136,6 @@
     </layout>
   </component>
   <component name="RunManager" selected="C/C++ 文件.primary.cpp">
-    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="sep25" type="CMakeListConfigurationType" factoryName="CMakeListConfigurationFactory" temporary="true">
       <method v="2" />
     </configuration>
@@ -185,6 +177,9 @@
       <updated>1756560835854</updated>
       <workItem from="1756560831061" duration="1789000" />
       <workItem from="1756964410542" duration="3253000" />
+      <workItem from="1757138376254" duration="2515000" />
+      <workItem from="1757495153149" duration="588000" />
+      <workItem from="1757554312749" duration="9000" />
     </task>
     <task id="LOCAL-00001" summary="尝试多项目">
       <option name="closed" value="true" />
