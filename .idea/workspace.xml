@@ -27,11 +27,10 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1e19d934-526e-4cf0-8dc6-1f6ba6f13d35" name="更改" comment="尝试多项目">
+    <list default="true" id="1e19d934-526e-4cf0-8dc6-1f6ba6f13d35" name="更改" comment="可见reserve的预分配作用相当大">
+      <change afterPath="$PROJECT_DIR$/code/sep25/StrFreq.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/sep25/primary.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/code/sep25/primary.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/note/sep25/1.md" beforeDir="false" afterPath="$PROJECT_DIR$/note/sep25/1.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/primary" beforeDir="false" afterPath="$PROJECT_DIR$/primary" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/sep25/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/code/sep25/CMakeLists.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,6 +75,7 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;C/C++ 文件.StrFreq.cpp.executor&quot;: &quot;Run&quot;,
     &quot;C/C++ 文件.primary.cpp.executor&quot;: &quot;Run&quot;,
     &quot;CMake 应用程序.cpp_linux_learning.executor&quot;: &quot;Run&quot;,
     &quot;CMake 调试.sep25.executor&quot;: &quot;Debug&quot;,
@@ -105,7 +105,7 @@
       <window_info id="Pull Requests" />
       <window_info id="Learn" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2249349" />
-      <window_info id="Commit" order="1" weight="0.32975262" />
+      <window_info id="Commit" order="1" weight="0.2249349" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="TypeScript" />
@@ -119,9 +119,9 @@
       <window_info anchor="bottom" id="Problems View" order="2" />
       <window_info anchor="bottom" id="Terminal" order="3" />
       <window_info anchor="bottom" id="Services" order="4" />
-      <window_info anchor="bottom" id="CMake" order="5" />
+      <window_info anchor="bottom" id="CMake" order="5" weight="0.32966396" />
       <window_info anchor="bottom" id="Messages" order="6" weight="0.32966396" />
-      <window_info active="true" anchor="bottom" id="Run" order="7" visible="true" />
+      <window_info anchor="bottom" id="Run" order="7" weight="0.32966396" />
       <window_info anchor="bottom" id="Debug" order="8" weight="0.32966396" />
       <window_info anchor="bottom" id="Build" order="9" weight="0.32966396" />
       <window_info anchor="right" id="Python Console" />
@@ -135,9 +135,14 @@
       <window_info anchor="right" id="make" order="6" side_tool="true" weight="0.32975262" />
     </layout>
   </component>
-  <component name="RunManager" selected="C/C++ 文件.primary.cpp">
+  <component name="RunManager" selected="C/C++ 文件.StrFreq.cpp">
     <configuration name="sep25" type="CMakeListConfigurationType" factoryName="CMakeListConfigurationFactory" temporary="true">
       <method v="2" />
+    </configuration>
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
     </configuration>
     <configuration name="cpp_linux_learning" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="cpp_linux_learning" TARGET_NAME="cpp_linux_learning" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="cpp_linux_learning" RUN_TARGET_NAME="cpp_linux_learning">
       <method v="2">
@@ -149,6 +154,12 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StrFreq.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="cpp_linux_learning" TARGET_NAME="StrFreq.cpp" CONFIG_NAME="StrFreq.cpp">
+      <option name="sourceFile" value="code/sep25/StrFreq.cpp" />
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="primary.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="cpp_linux_learning" TARGET_NAME="primary.cpp" CONFIG_NAME="primary.cpp">
       <option name="sourceFile" value="code/sep25/primary.cpp" />
       <method v="2">
@@ -156,6 +167,7 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="C/C++ 文件.StrFreq.cpp" />
       <item itemvalue="C/C++ 文件.primary.cpp" />
       <item itemvalue="CMake 应用程序.cpp_linux_learning" />
       <item itemvalue="CMake 应用程序.main1" />
@@ -163,6 +175,7 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="C/C++ 文件.StrFreq.cpp" />
         <item itemvalue="C/C++ 文件.primary.cpp" />
         <item itemvalue="CMake 调试.sep25" />
       </list>
@@ -179,7 +192,8 @@
       <workItem from="1756964410542" duration="3253000" />
       <workItem from="1757138376254" duration="2515000" />
       <workItem from="1757495153149" duration="588000" />
-      <workItem from="1757554312749" duration="9000" />
+      <workItem from="1757554312749" duration="2248000" />
+      <workItem from="1757658833106" duration="2302000" />
     </task>
     <task id="LOCAL-00001" summary="尝试多项目">
       <option name="closed" value="true" />
@@ -189,7 +203,15 @@
       <option name="project" value="LOCAL" />
       <updated>1756562444556</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="可见reserve的预分配作用相当大">
+      <option name="closed" value="true" />
+      <created>1757554455954</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1757554455955</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -202,7 +224,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="尝试多项目" />
-    <option name="LAST_COMMIT_MESSAGE" value="尝试多项目" />
+    <MESSAGE value="可见reserve的预分配作用相当大" />
+    <option name="LAST_COMMIT_MESSAGE" value="可见reserve的预分配作用相当大" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
