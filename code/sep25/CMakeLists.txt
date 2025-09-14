@@ -1,5 +1,6 @@
 
 add_executable(
-        strFreq.cpp
+        LRU.h
+        LRU_test.cpp
 )
 

@@ -7,9 +7,8 @@
 #include <unordered_map>
 std::string get_random_string() {
     const std::string charset = "abcdefghijklmnopqrstuvwxyz"
-                               "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
-                               "0123456789";
-    auto seed=std::chrono::system_clock().now().time_since_epoch().count();
+                                "0123456789";
+    auto seed=std::chrono::system_clock::now().time_since_epoch().count();
     std::default_random_engine rng(seed);
     std::uniform_int_distribution<int> lengthDist(5, 10);
     int length = lengthDist(rng);
@@ -23,6 +22,7 @@ std::string get_random_string() {
 
 }
 
+
 double average_count(std::unordered_map<std::string,int>& map,float factor,std::vector<std::string>& words) {
     map.max_load_factor(factor);
     for (auto &s:words) {
@@ -34,9 +34,8 @@ double average_count(std::unordered_map<std::string,int>& map,float factor,std::
     }
     auto end=std::chrono::high_resolution_clock::now();
     auto duration = std::chrono::duration_cast<std::chrono::microseconds>(end-start);
-
+    std::cout << map["99999"] << std::endl;
     return static_cast<double>(duration.count())/words.size();
-
 }
 
 
@@ -50,7 +49,7 @@ int main() {
         words.push_back(get_random_string());
     }
     float default_factor=1.0;
-    float current_factor=0.5;
+    float current_factor=0.02;
     std::unordered_map<std::string,int> map1;
     std::unordered_map<std::string,int> map2;
 
