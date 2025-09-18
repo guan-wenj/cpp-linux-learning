@@ -78,7 +78,7 @@ public:
         if (data_list_.size()>=capacity_) {
             evict_oldest();
         }
-        data_list_.emplace_front(std::make_pair(key, value));
+        data_list_.emplace_front(key, value);
         key_map_[key]=data_list_.begin();
     }
 

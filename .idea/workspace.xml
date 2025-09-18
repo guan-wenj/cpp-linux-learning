@@ -5,7 +5,8 @@
   </component>
   <component name="BackendCodeEditorMiscSettings">
     <option name="/Default/Housekeeping/FeatureSuggestion/FeatureSuggestionManager/DisabledSuggesters/=SwitchToGoToActionSuggester/@EntryIndexedValue" value="true" type="bool" />
-    <option name="/Default/Housekeeping/LiveTemplatesHousekeeping/HotspotSessionHintIsShown/@EntryValue" value="true" type="bool" />
+    <option name="/Default/Housekeeping/GlobalSettingsUpgraded/IsUpgraded/@EntryValue" value="true" type="bool" />
+    <option name="/Default/RiderDebugger/RiderRestoreDecompile/RestoreDecompileSetting/@EntryValue" value="false" type="bool" />
   </component>
   <component name="CMakePresetLoader">{
   &quot;useNewFormat&quot;: true
@@ -18,8 +19,11 @@
   </component>
   <component name="CMakeRunConfigurationManager">
     <generated>
+      <config projectName="cpp_linux_learning" targetName="fib" />
+      <config projectName="cpp_linux_learning" targetName="oct25" />
       <config projectName="cpp_linux_learning" targetName="cpp_linux_learning" />
-      <config projectName="cpp_linux_learning" targetName="LRU.h" />
+      <config projectName="cpp_linux_learning" targetName="sep25" />
+      <config projectName="cpp_linux_learning" targetName="LRU_test" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -29,10 +33,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1e19d934-526e-4cf0-8dc6-1f6ba6f13d35" name="更改" comment="哈希的词频统计工具">
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/oct25/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/oct25/fib.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/oct25/test.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/cpp-linux-learning.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/cpp-linux-learning.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/editor.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StrFreq" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/code/sep25/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/code/sep25/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/sep25/StrFreq.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/code/sep25/StrFreq.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/note/sep25/1.md" beforeDir="false" afterPath="$PROJECT_DIR$/note/sep25/1.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/sep25/LRU.h" beforeDir="false" afterPath="$PROJECT_DIR$/code/sep25/LRU.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,24 +77,41 @@
     &quot;accountId&quot;: &quot;975e042e-9db9-47bb-8961-3ccecf9acce2&quot;
   }
 }</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/code/sep25/LRU.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/code/sep25/LRU_test.cpp" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="ProjectApplicationVersion">
+    <option name="ide" value="CLion" />
+    <option name="majorVersion" value="2025" />
+    <option name="minorVersion" value="2" />
+    <option name="productBranch" value="Classic" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 1
 }</component>
   <component name="ProjectId" id="32DoHN1sRUwweISNBSX4m0qiEMZ" />
-  <component name="ProjectStatusUIService"><![CDATA[{
-  "uiKindId": "Widget"
-}]]></component>
+  <component name="ProjectStatusUIService">{
+  &quot;uiKindId&quot;: &quot;Widget&quot;
+}</component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "C/C++ 文件.LRU_test.cpp.executor": "Run",
     "C/C++ 文件.StrFreq.cpp.executor": "Run",
     "C/C++ 文件.primary.cpp.executor": "Run",
+    "C/C++ 文件.test.cpp.executor": "Run",
     "CMake 应用程序.LRU.h.executor": "Run",
+    "CMake 应用程序.LRU_test.executor": "Run",
     "CMake 应用程序.cpp_linux_learning.executor": "Run",
+    "CMake 应用程序.oct25.executor": "Run",
+    "CMake 应用程序.sep25.executor": "Run",
+    "CMake 调试.Project.executor": "Debug",
+    "CMake 调试.cpp-linux-learning.executor": "Debug",
     "CMake 调试.sep25.executor": "Debug",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.RadMigrateCodeStyle": "true",
@@ -93,6 +121,7 @@
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.readMode.enableVisualFormatting": "true",
     "RunOnceActivity.west.config.association.type.startup.service": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "cf.first.check.clang-format": "false",
     "cidr.known.project.marker": "true",
     "node.js.detected.package.eslint": "true",
@@ -123,14 +152,15 @@
       <window_info anchor="bottom" id="clangd" />
       <window_info anchor="bottom" id="Version Control" order="0" />
       <window_info anchor="bottom" id="Problems" order="1" />
-      <window_info anchor="bottom" id="Problems View" order="2" />
-      <window_info anchor="bottom" id="Terminal" order="3" weight="0.32271147" />
-      <window_info anchor="bottom" id="Services" order="4" />
+      <window_info anchor="bottom" id="Problems View" order="2" weight="0.32966396" />
+      <window_info anchor="bottom" id="Terminal" order="3" weight="0.32966396" />
+      <window_info anchor="bottom" id="Services" order="4" weight="0.32966396" />
       <window_info anchor="bottom" id="CMake" order="5" weight="0.32966396" />
       <window_info anchor="bottom" id="Messages" order="6" weight="0.32966396" />
       <window_info anchor="bottom" id="Run" order="7" weight="0.32966396" />
-      <window_info anchor="bottom" id="Debug" order="8" weight="0.32271147" />
+      <window_info anchor="bottom" id="Debug" order="8" weight="0.32966396" />
       <window_info anchor="bottom" id="Build" order="9" weight="0.32966396" />
+      <window_info anchor="bottom" id="Find" order="10" weight="0.32966396" />
       <window_info anchor="right" id="Python Console" />
       <window_info anchor="right" id="Coverage" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Notifications" order="0" weight="0.25" />
@@ -142,49 +172,45 @@
       <window_info anchor="right" id="make" order="6" side_tool="true" weight="0.32975262" />
     </layout>
   </component>
-  <component name="RunManager" selected="CMake 应用程序.LRU.h">
+  <component name="RunManager" selected="CMake 应用程序.fib">
     <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="CLION.EXTERNAL.BUILD" enabled="true" />
       </method>
     </configuration>
-    <configuration name="sep25" type="CMakeListConfigurationType" factoryName="CMakeListConfigurationFactory" temporary="true">
+    <configuration name="cpp-linux-learning" type="CMakeListConfigurationType" factoryName="CMakeListConfigurationFactory" temporary="true">
       <method v="2" />
-    </configuration>
-    <configuration name="LRU.h" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="cpp_linux_learning" TARGET_NAME="LRU.h" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="cpp_linux_learning" RUN_TARGET_NAME="LRU.h">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
     </configuration>
     <configuration name="cpp_linux_learning" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="cpp_linux_learning" TARGET_NAME="cpp_linux_learning" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="cpp_linux_learning" RUN_TARGET_NAME="cpp_linux_learning">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StrFreq.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="cpp_linux_learning" TARGET_NAME="StrFreq.cpp" CONFIG_NAME="StrFreq.cpp">
-      <option name="sourceFile" value="code/sep25/StrFreq.cpp" />
+    <configuration name="fib" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="cpp_linux_learning" TARGET_NAME="fib" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="cpp_linux_learning" RUN_TARGET_NAME="fib">
       <method v="2">
-        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="primary.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="cpp_linux_learning" TARGET_NAME="primary.cpp" CONFIG_NAME="primary.cpp">
-      <option name="sourceFile" value="code/sep25/primary.cpp" />
+    <configuration name="oct25" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="cpp_linux_learning" TARGET_NAME="oct25" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="cpp_linux_learning" RUN_TARGET_NAME="oct25">
       <method v="2">
-        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="sep25" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="cpp_linux_learning" TARGET_NAME="sep25" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="cpp_linux_learning" RUN_TARGET_NAME="sep25">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="C/C++ 文件.StrFreq.cpp" />
-      <item itemvalue="C/C++ 文件.primary.cpp" />
       <item itemvalue="CMake 应用程序.cpp_linux_learning" />
-      <item itemvalue="CMake 应用程序.LRU.h" />
-      <item itemvalue="CMake 调试.sep25" />
+      <item itemvalue="CMake 应用程序.fib" />
+      <item itemvalue="CMake 应用程序.oct25" />
+      <item itemvalue="CMake 应用程序.sep25" />
+      <item itemvalue="CMake 调试.cpp-linux-learning" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="C/C++ 文件.StrFreq.cpp" />
-        <item itemvalue="C/C++ 文件.primary.cpp" />
-        <item itemvalue="CMake 调试.sep25" />
+        <item itemvalue="CMake 调试.cpp-linux-learning" />
       </list>
     </recent_temporary>
   </component>
@@ -202,6 +228,8 @@
       <workItem from="1757554312749" duration="2248000" />
       <workItem from="1757658833106" duration="5238000" />
       <workItem from="1757814853615" duration="8461000" />
+      <workItem from="1758161190372" duration="1569000" />
+      <workItem from="1758162872820" duration="1263000" />
     </task>
     <task id="LOCAL-00001" summary="尝试多项目">
       <option name="closed" value="true" />
