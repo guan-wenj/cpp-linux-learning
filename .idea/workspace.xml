@@ -32,18 +32,9 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1e19d934-526e-4cf0-8dc6-1f6ba6f13d35" name="更改" comment="哈希的词频统计工具">
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/oct25/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/oct25/fib.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/oct25/test.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/cpp-linux-learning.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/cpp-linux-learning.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/editor.xml" afterDir="false" />
+    <list default="true" id="1e19d934-526e-4cf0-8dc6-1f6ba6f13d35" name="更改" comment="大cmake编译一次，用小的cmke程序运行">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StrFreq" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/sep25/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/code/sep25/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/sep25/LRU.h" beforeDir="false" afterPath="$PROJECT_DIR$/code/sep25/LRU.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/oct25/fib.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/code/oct25/fib.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,39 +90,40 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "C/C++ 文件.LRU_test.cpp.executor": "Run",
-    "C/C++ 文件.StrFreq.cpp.executor": "Run",
-    "C/C++ 文件.primary.cpp.executor": "Run",
-    "C/C++ 文件.test.cpp.executor": "Run",
-    "CMake 应用程序.LRU.h.executor": "Run",
-    "CMake 应用程序.LRU_test.executor": "Run",
-    "CMake 应用程序.cpp_linux_learning.executor": "Run",
-    "CMake 应用程序.oct25.executor": "Run",
-    "CMake 应用程序.sep25.executor": "Run",
-    "CMake 调试.Project.executor": "Debug",
-    "CMake 调试.cpp-linux-learning.executor": "Debug",
-    "CMake 调试.sep25.executor": "Debug",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.RadMigrateCodeStyle": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.cidr.known.project.marker": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.readMode.enableVisualFormatting": "true",
-    "RunOnceActivity.west.config.association.type.startup.service": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "cf.first.check.clang-format": "false",
-    "cidr.known.project.marker": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;C/C++ 文件.LRU_test.cpp.executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ 文件.StrFreq.cpp.executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ 文件.primary.cpp.executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ 文件.test.cpp.executor&quot;: &quot;Run&quot;,
+    &quot;CMake 应用程序.LRU.h.executor&quot;: &quot;Run&quot;,
+    &quot;CMake 应用程序.LRU_test.executor&quot;: &quot;Run&quot;,
+    &quot;CMake 应用程序.cpp_linux_learning.executor&quot;: &quot;Run&quot;,
+    &quot;CMake 应用程序.fib.executor&quot;: &quot;Run&quot;,
+    &quot;CMake 应用程序.oct25.executor&quot;: &quot;Run&quot;,
+    &quot;CMake 应用程序.sep25.executor&quot;: &quot;Run&quot;,
+    &quot;CMake 调试.Project.executor&quot;: &quot;Debug&quot;,
+    &quot;CMake 调试.cpp-linux-learning.executor&quot;: &quot;Debug&quot;,
+    &quot;CMake 调试.sep25.executor&quot;: &quot;Debug&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.RadMigrateCodeStyle&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.west.config.association.type.startup.service&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RdControllerToolWindowsLayoutState" isNewUi="true">
     <layout>
       <window_info id="Bookmarks" side_tool="true" />
@@ -140,7 +132,7 @@
       <window_info id="Commit_Guest" show_stripe_button="false" />
       <window_info id="Pull Requests" />
       <window_info id="Learn" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2249349" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23404947" />
       <window_info id="Commit" order="1" weight="0.2249349" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Database Changes" />
@@ -157,7 +149,7 @@
       <window_info anchor="bottom" id="Services" order="4" weight="0.32966396" />
       <window_info anchor="bottom" id="CMake" order="5" weight="0.32966396" />
       <window_info anchor="bottom" id="Messages" order="6" weight="0.32966396" />
-      <window_info anchor="bottom" id="Run" order="7" weight="0.32966396" />
+      <window_info active="true" anchor="bottom" id="Run" order="7" visible="true" weight="0.32966396" />
       <window_info anchor="bottom" id="Debug" order="8" weight="0.32966396" />
       <window_info anchor="bottom" id="Build" order="9" weight="0.32966396" />
       <window_info anchor="bottom" id="Find" order="10" weight="0.32966396" />
@@ -173,13 +165,13 @@
     </layout>
   </component>
   <component name="RunManager" selected="CMake 应用程序.fib">
-    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="cpp-linux-learning" type="CMakeListConfigurationType" factoryName="CMakeListConfigurationFactory" temporary="true">
       <method v="2" />
+    </configuration>
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
     </configuration>
     <configuration name="cpp_linux_learning" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="cpp_linux_learning" TARGET_NAME="cpp_linux_learning" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="cpp_linux_learning" RUN_TARGET_NAME="cpp_linux_learning">
       <method v="2">
@@ -229,7 +221,8 @@
       <workItem from="1757658833106" duration="5238000" />
       <workItem from="1757814853615" duration="8461000" />
       <workItem from="1758161190372" duration="1569000" />
-      <workItem from="1758162872820" duration="1263000" />
+      <workItem from="1758162872820" duration="1623000" />
+      <workItem from="1758257066194" duration="2601000" />
     </task>
     <task id="LOCAL-00001" summary="尝试多项目">
       <option name="closed" value="true" />
@@ -255,7 +248,15 @@
       <option name="project" value="LOCAL" />
       <updated>1757661152071</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="大cmake编译一次，用小的cmke程序运行">
+      <option name="closed" value="true" />
+      <created>1758164484134</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1758164484134</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -270,7 +271,8 @@
     <MESSAGE value="尝试多项目" />
     <MESSAGE value="可见reserve的预分配作用相当大" />
     <MESSAGE value="哈希的词频统计工具" />
-    <option name="LAST_COMMIT_MESSAGE" value="哈希的词频统计工具" />
+    <MESSAGE value="大cmake编译一次，用小的cmke程序运行" />
+    <option name="LAST_COMMIT_MESSAGE" value="大cmake编译一次，用小的cmke程序运行" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
