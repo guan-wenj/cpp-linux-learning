@@ -9,3 +9,9 @@ add_executable(
         fib.cpp
 )
 
+add_executable(
+        init
+        init_list.cpp
+
+)
+
