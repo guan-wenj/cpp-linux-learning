@@ -33,10 +33,10 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1e19d934-526e-4cf0-8dc6-1f6ba6f13d35" name="更改" comment="大cmake编译一次，用小的cmke程序运行">
-      <change afterPath="$PROJECT_DIR$/code/oct25/init_list.cpp" afterDir="false" />
+    <list default="true" id="1e19d934-526e-4cf0-8dc6-1f6ba6f13d35" name="更改" comment="列表初始化">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/oct25/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/code/oct25/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/oct25/init_list.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/code/oct25/init_list.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/oct25/test.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/code/oct25/test.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -151,8 +151,8 @@
       <window_info anchor="bottom" id="Terminal" order="3" weight="0.32966396" />
       <window_info anchor="bottom" id="Services" order="4" weight="0.32966396" />
       <window_info anchor="bottom" id="CMake" order="5" weight="0.32966396" />
-      <window_info anchor="bottom" id="Messages" order="6" weight="0.32966396" />
-      <window_info active="true" anchor="bottom" id="Run" order="7" visible="true" weight="0.32966396" />
+      <window_info active="true" anchor="bottom" id="Messages" order="6" visible="true" weight="0.32966396" />
+      <window_info anchor="bottom" id="Run" order="7" weight="0.32966396" />
       <window_info anchor="bottom" id="Debug" order="8" weight="0.32966396" />
       <window_info anchor="bottom" id="Build" order="9" weight="0.32966396" />
       <window_info anchor="bottom" id="Find" order="10" weight="0.32966396" />
@@ -167,7 +167,7 @@
       <window_info anchor="right" id="make" order="6" side_tool="true" weight="0.32975262" />
     </layout>
   </component>
-  <component name="RunManager" selected="CMake 应用程序.init">
+  <component name="RunManager" selected="CMake 应用程序.oct25">
     <configuration name="cpp-linux-learning" type="CMakeListConfigurationType" factoryName="CMakeListConfigurationFactory" temporary="true">
       <method v="2" />
     </configuration>
@@ -265,7 +265,15 @@
       <option name="project" value="LOCAL" />
       <updated>1758164484134</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="列表初始化">
+      <option name="closed" value="true" />
+      <created>1758262657584</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1758262657584</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -281,7 +289,8 @@
     <MESSAGE value="可见reserve的预分配作用相当大" />
     <MESSAGE value="哈希的词频统计工具" />
     <MESSAGE value="大cmake编译一次，用小的cmke程序运行" />
-    <option name="LAST_COMMIT_MESSAGE" value="大cmake编译一次，用小的cmke程序运行" />
+    <MESSAGE value="列表初始化" />
+    <option name="LAST_COMMIT_MESSAGE" value="列表初始化" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
