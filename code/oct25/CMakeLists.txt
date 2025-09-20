@@ -15,3 +15,9 @@ add_executable(
 
 )
 
+add_executable(
+        play
+        play_function.cpp
+
+)
+
