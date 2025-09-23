@@ -57,7 +57,7 @@ public:
 
 void testSchedulerWithSmartPtr() {
     Scheduler scheduler(100); // 假设最大100个任务
-    for (int i = 0; i < 1000; ++i) {
+    for (int i = 0; i < 1589; ++i) {
         scheduler.add_task([i]() {
             // 任务内容，例如打印日志
             std::println("task is {}",i);
@@ -68,7 +68,6 @@ void testSchedulerWithSmartPtr() {
             scheduler.executeAll();
         }
     }
-    // 执行剩余任务
     scheduler.executeAll();
 }
 
