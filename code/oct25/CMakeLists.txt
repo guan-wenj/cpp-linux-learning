@@ -18,6 +18,10 @@ add_executable(
 add_executable(
         play
         play_function.cpp
+)
 
+add_executable(
+        pointer
+        leak.cpp
 )
 
