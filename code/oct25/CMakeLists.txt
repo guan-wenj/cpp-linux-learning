@@ -25,3 +25,8 @@ add_executable(
         leak.cpp
 )
 
+add_executable(
+        task_scheduler
+        task_scheduler.cpp
+
+)

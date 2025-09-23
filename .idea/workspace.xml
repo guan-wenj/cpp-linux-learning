@@ -27,6 +27,7 @@
       <config projectName="cpp_linux_learning" targetName="sep25" />
       <config projectName="cpp_linux_learning" targetName="play" />
       <config projectName="cpp_linux_learning" targetName="LRU_test" />
+      <config projectName="cpp_linux_learning" targetName="task_scheduler" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -35,11 +36,10 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1e19d934-526e-4cf0-8dc6-1f6ba6f13d35" name="更改" comment="9.20学习">
-      <change afterPath="$PROJECT_DIR$/code/oct25/leak.cpp" afterDir="false" />
+    <list default="true" id="1e19d934-526e-4cf0-8dc6-1f6ba6f13d35" name="更改" comment="智能指针">
+      <change afterPath="$PROJECT_DIR$/code/oct25/task_scheduler.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/code/oct25/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/code/oct25/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/oct25/play_function.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/code/oct25/play_function.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,6 +110,7 @@
     "CMake 应用程序.play.executor": "Run",
     "CMake 应用程序.pointer.executor": "Run",
     "CMake 应用程序.sep25.executor": "Run",
+    "CMake 应用程序.task_scheduler.executor": "Run",
     "CMake 调试.Project.executor": "Debug",
     "CMake 调试.cpp-linux-learning.executor": "Debug",
     "CMake 调试.sep25.executor": "Debug",
@@ -172,7 +173,7 @@
       <window_info anchor="right" id="make" order="6" side_tool="true" weight="0.32975262" />
     </layout>
   </component>
-  <component name="RunManager" selected="CMake 应用程序.pointer">
+  <component name="RunManager" selected="CMake 应用程序.task_scheduler">
     <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="CLION.EXTERNAL.BUILD" enabled="true" />
@@ -216,6 +217,11 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="task_scheduler" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="cpp_linux_learning" TARGET_NAME="task_scheduler" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="cpp_linux_learning" RUN_TARGET_NAME="task_scheduler">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="CMake 应用程序.cpp_linux_learning" />
       <item itemvalue="CMake 应用程序.fib" />
@@ -223,6 +229,7 @@
       <item itemvalue="CMake 应用程序.oct25" />
       <item itemvalue="CMake 应用程序.play" />
       <item itemvalue="CMake 应用程序.pointer" />
+      <item itemvalue="CMake 应用程序.task_scheduler" />
       <item itemvalue="CMake 应用程序.sep25" />
       <item itemvalue="CMake 调试.cpp-linux-learning" />
     </list>
@@ -251,7 +258,7 @@
       <workItem from="1758257066194" duration="2601000" />
       <workItem from="1758348509867" duration="4744000" />
       <workItem from="1758357565469" duration="339000" />
-      <workItem from="1758590386872" duration="1146000" />
+      <workItem from="1758590386872" duration="6270000" />
     </task>
     <task id="LOCAL-00001" summary="尝试多项目">
       <option name="closed" value="true" />
@@ -309,7 +316,15 @@
       <option name="project" value="LOCAL" />
       <updated>1758352422887</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="智能指针">
+      <option name="closed" value="true" />
+      <created>1758591807901</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1758591807901</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -328,7 +343,8 @@
     <MESSAGE value="列表初始化" />
     <MESSAGE value="完成第二章" />
     <MESSAGE value="9.20学习" />
-    <option name="LAST_COMMIT_MESSAGE" value="9.20学习" />
+    <MESSAGE value="智能指针" />
+    <option name="LAST_COMMIT_MESSAGE" value="智能指针" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
