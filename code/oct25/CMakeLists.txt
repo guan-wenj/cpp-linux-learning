@@ -30,3 +30,9 @@ add_executable(
         task_scheduler.cpp
 
 )
+
+add_executable(
+        dynamic
+        dynamic_arr.h
+        test_arr.cpp
+)
