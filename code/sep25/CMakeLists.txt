@@ -6,3 +6,8 @@ add_executable(
         LRU_test.cpp
 )
 
+
+add_executable(
+        log
+        log_process.cpp
+)
