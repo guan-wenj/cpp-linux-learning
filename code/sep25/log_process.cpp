@@ -228,7 +228,7 @@ int main() {
         // 处理示例日志文件
         process_log_file("../../../note/sep25/test.log");
         // 测试大日志处理
-        //test_large_log();
+        test_large_log();
     } catch (const std::exception& e) {
         std::cerr << "程序错误: " << e.what() << std::endl;
         return 1;
