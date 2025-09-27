@@ -142,19 +142,22 @@ void print_format(const LogEntry& log) {
         localtime_r(&time, &tm);
         char time_str[20];
         std::strftime(time_str, sizeof(time_str), "%Y-%m-%d %H:%M:%S", &tm);
-        std::cout << "[" << time_str << "]";
+        std::print("[{}]",time_str);
+       // std::cout << "[" << time_str << "]";
     } else {
-        std::cout << "[                ]";
+        std::print("[                ]");
+       // std::cout << "[                ]";
     }
 
     switch (log.level) {
-    case LogLevel::DEBUG:    std::cout << "DEBUG:    "; break;
-    case LogLevel::INFO:     std::cout << "INFO:     "; break;
-    case LogLevel::WARNING:  std::cout << "WARNING:  "; break;
-    case LogLevel::ERROR:    std::cout << "ERROR:    "; break;
-    case LogLevel::CRITICAL: std::cout << "CRITICAL: "; break;
+    case LogLevel::DEBUG:    std::print("DEBUG:    ");    break;  // 保持原空格对齐
+    case LogLevel::INFO:     std::print("INFO:     ");     break;
+    case LogLevel::WARNING:  std::print("WARNING:  ");  break;
+    case LogLevel::ERROR:    std::print("ERROR:    ");    break;
+    case LogLevel::CRITICAL: std::print("CRITICAL: "); break;
     }
-    std::cout << log.message << "\n";
+    std::println("{}",log.message);
+    //std::cout << log.message << "\n";
 }
 
 //处理日志文件
@@ -224,8 +227,6 @@ int main() {
     try {
         // 处理示例日志文件
         process_log_file("../../../note/sep25/test.log");
-
-
         // 测试大日志处理
         //test_large_log();
     } catch (const std::exception& e) {
