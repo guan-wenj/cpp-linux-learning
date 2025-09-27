@@ -4,7 +4,7 @@
 
 #include <print>
 #include <chrono>
-constexpr int fib_const(const int n) {
+extern constexpr int fib_const(const int n) {
     if (n==1 || n==2) {
         return 1;
     }
