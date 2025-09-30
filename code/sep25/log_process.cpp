@@ -226,7 +226,7 @@ void test_large_log() {
 int main() {
     try {
         // 处理示例日志文件
-        process_log_file("../../../note/sep25/test.log");
+        process_log_file("../../../data/test.log");
         // 测试大日志处理
         test_large_log();
     } catch (const std::exception& e) {

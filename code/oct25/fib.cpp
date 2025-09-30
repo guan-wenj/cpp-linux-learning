@@ -18,23 +18,23 @@ int fib(const int n) {
 }
 
 
-int main() {
-    auto start=std::chrono::steady_clock::now();
-    for (int i=0;i<1000;i++) {
-        int n=fib(30);
-    }
-    auto end=std::chrono::steady_clock::now();
-    auto duration1=std::chrono::duration<double>(end-start);
-
-    start=std::chrono::steady_clock::now();
-    for (int i=0;i<1000;i++) {
-        int n=fib_const(30);
-    }
-    end=std::chrono::steady_clock::now();
-    auto duration2=std::chrono::duration<double>(end-start);
-
-    std::println("{}",duration1);
-    std::println("const:{}",duration2);
-    std::println("{}倍",duration1/duration2);
-    return 0;
-}
+// int main() {
+//     auto start=std::chrono::steady_clock::now();
+//     for (int i=0;i<1000;i++) {
+//         int n=fib(30);
+//     }
+//     auto end=std::chrono::steady_clock::now();
+//     auto duration1=std::chrono::duration<double>(end-start);
+//
+//     start=std::chrono::steady_clock::now();
+//     for (int i=0;i<1000;i++) {
+//         int n=fib_const(30);
+//     }
+//     end=std::chrono::steady_clock::now();
+//     auto duration2=std::chrono::duration<double>(end-start);
+//
+//     std::println("{}",duration1);
+//     std::println("const:{}",duration2);
+//     std::println("{}倍",duration1/duration2);
+//     return 0;
+// }
