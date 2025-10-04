@@ -10,7 +10,6 @@ set(CMAKE_CXX_STANDARD 23)
 #add_subdirectory(code/oct25)
 add_subdirectory(code/json_parser)
 
-
 #include_directories(code/sep25)
 #include_directories(code/oct25)
 include_directories(code/json_parser)
