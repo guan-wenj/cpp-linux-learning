@@ -5,7 +5,10 @@
 #include <ctime>
 #include <chrono>
 #include <utility>
-
+/*
+ * 从文件读取的input字符串直接构建task    1 2025 4 5 好天气
+ * 返回 一个tuple 包含时间的三个int 和 信息
+ */
 std::tuple<int, int, int, int, std::string> parse_file_line(const std::string& input) {
     std::istringstream iss(input);
     int id, year, month, day;
@@ -27,6 +30,10 @@ int generate_id() {
     return static_cast<int>(ms.count());
 }
 
+
+/*
+ * 时间的合法性检查
+ */
 bool time_is_valid(int year,int month,int day) {
     if (month < 1 || month > 12)
         return false;
@@ -44,6 +51,10 @@ bool time_is_valid(int year,int month,int day) {
     return true;
 }
 
+
+/*
+ * task的时间是否早于提供的时间
+ */
 bool my_todo_list::Task::early_than(int year, int month, int day) const {
     if (year_<year) {
         return true;
@@ -58,6 +69,11 @@ bool my_todo_list::Task::early_than(int year, int month, int day) const {
     return false;
 }
 
+/**
+ *
+ * @param other
+ * @return 是否早于other
+ */
 bool my_todo_list::Task::early_than_other(const Task& other) const{
     return early_than(other.year_,other.month_,other.day_);
 }
@@ -85,6 +101,10 @@ bool my_todo_list::Task::is_expired() {
 
 }
 
+/**
+ *
+ * @return 在控制台上展示的字符串
+ */
 std::string my_todo_list::Task::display() {
     std::stringstream ss;
     ss << "ID: " << id_ <<std::endl<< "Message: " << message_<<std::endl;
@@ -101,6 +121,9 @@ my_todo_list::Task::Task(std::string input) {
     message_ = message;
 }
 
+/**
+ * @return 在文件中写入的字符串
+ */
 std::string my_todo_list::Task::format() {
     std::stringstream ss;
     ss<<id_<<' '<<year_<<'-'<<month_<<'-'<<day_<<' '<<message_;
@@ -120,6 +143,11 @@ void my_todo_list::Task::set_time(int year, int month, int day) {
     day_ = day;
 }
 
+/**
+ *
+ * @param other
+ * @return 类似:early_than_other的小于号重载 方便之后排序
+ */
 bool my_todo_list::Task::operator<(const Task& other) const {
     return early_than_other(other);
 }

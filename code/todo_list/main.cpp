@@ -23,6 +23,8 @@ int main() {
         std::println("{}",t1.early_than(2024,9,18));
         std::println("{}",t1.early_than(2024,9,19));
 
+        t2.set_time(2028,2,29);
+
 
 
 
