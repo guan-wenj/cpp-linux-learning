@@ -18,11 +18,7 @@ std::tuple<int, int, int, int, std::string> parse_file_line(const std::string& i
     int id, year, month, day;
     std::string dateStr, message;
     // 提取id和日期字符串
-    iss >> id >> dateStr;
-    // 解析日期（yyyy-m-d）
-    std::istringstream dateIss(dateStr);
-    char dash1, dash2; // 用于接收 '-' 分隔符
-    dateIss >> year >> dash1 >> month >> dash2 >> day;
+    iss >> id >> year>>month>>day;
     // 提取剩余部分作为消息（包含空格）
     std::getline(iss >> std::ws, message);
     return {id, year, month, day, message};
@@ -140,7 +136,7 @@ my_todo_list::Task::Task(std::string input) {
  */
 std::string my_todo_list::Task::format() const{
     std::stringstream ss;
-    ss<<id_<<' '<<year_<<'-'<<month_<<'-'<<day_<<' '<<message_;
+    ss<<id_<<' '<<year_<<' '<<month_<<' '<<day_<<' '<<message_;
     return ss.str();
 }
 
