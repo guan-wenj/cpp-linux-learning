@@ -3,6 +3,34 @@
 //
 
 #include "list_file.h"
+namespace fs = std::filesystem;
+void my_io::check_and_create_file(const std::string& file_path) {
+        // 1. 转换为filesystem::path对象（方便路径操作）
+        fs::path file = file_path;
+
+        // 2. 检查文件是否已存在
+        if (fs::exists(file) && fs::is_regular_file(file)) {
+            return;  // 文件存在且是普通文件，直接返回
+        }
+
+        // 3. 若文件不存在，先确保父目录存在（递归创建目录）
+        fs::path parent_dir = file.parent_path();
+        if (!parent_dir.empty() && !fs::exists(parent_dir)) {
+            // 递归创建所有不存在的父目录（如"a/b/c"会创建a、a/b、a/b/c）
+            if (!fs::create_directories(parent_dir)) {
+                throw std::runtime_error("无法创建目录: " + parent_dir.string());
+            }
+        }
+
+        // 4. 创建文件（用ofstream打开即创建，打开后立即关闭）
+        std::ofstream ofs(file, std::ios::out);  // 仅打开输出模式，不截断已有文件（若存在）
+        if (!ofs.is_open()) {
+            throw std::runtime_error("无法创建文件: " + file_path + "（可能权限不足）");
+        }
+
+        // 5. 无需写入内容，关闭文件即可
+        ofs.close();
+}
 
 std::span<const std::string_view> my_io::read_lines_span(const std::string& file_path, bool skip_empty) {
         static std::vector<std::string> buffer;  // 存储实际字符串（生命周期管理）

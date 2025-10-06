@@ -11,7 +11,8 @@ using namespace my_io;
 int main() {
     try {
         TodoList list;
-        const std::string file_path="/home/guan/code/cpp/cpp-linux-learning/code/todo_list/tasks.txt";
+        const std::string file_path="tasks.txt";
+        check_and_create_file(file_path);
         auto lines = read_lines_span(file_path);
         for (std::string_view line : lines) {
             if (line.empty()) continue;
@@ -20,10 +21,8 @@ int main() {
             Task task(input);
             list.add(task);
         }
-        list.remove_expired();
+        list.date_sort();
         write_lines_to_file(file_path,list.list_format());
-
-
     }catch(const std::exception& e) {
         std::println("{}",e.what());
     }
