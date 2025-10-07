@@ -43,6 +43,13 @@ private:
 public:
     TodoList();
     ~TodoList()=default;
+    // 👇 关键：禁止拷贝
+    TodoList(const TodoList&) = delete;
+    TodoList& operator=(const TodoList&) = delete;
+
+    // 👇 允许移动（编译器自动生成即可）
+    TodoList(TodoList&&) = default;
+    TodoList& operator=(TodoList&&) = default;
     //crud
     bool empty() const;
     int size() const;
