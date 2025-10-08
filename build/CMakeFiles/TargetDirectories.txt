@@ -1,5 +1,0 @@
-/home/guan/code/cpp/cpp-linux-learning/build/CMakeFiles/edit_cache.dir
-/home/guan/code/cpp/cpp-linux-learning/build/CMakeFiles/rebuild_cache.dir
-/home/guan/code/cpp/cpp-linux-learning/build/code/todo_list/CMakeFiles/todo_list.dir
-/home/guan/code/cpp/cpp-linux-learning/build/code/todo_list/CMakeFiles/edit_cache.dir
-/home/guan/code/cpp/cpp-linux-learning/build/code/todo_list/CMakeFiles/rebuild_cache.dir
