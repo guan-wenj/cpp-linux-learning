@@ -1,9 +1,0 @@
-ninja_dyndep_version = 1.0
-build code/todo_list/CMakeFiles/todo_list.dir/entity.cpp.o: dyndep
-
-build code/todo_list/CMakeFiles/todo_list.dir/list_file.cpp.o: dyndep
-
-build code/todo_list/CMakeFiles/todo_list.dir/service.cpp.o: dyndep
-
-build code/todo_list/CMakeFiles/todo_list.dir/main.cpp.o: dyndep
-
