@@ -1,0 +1,11 @@
+{
+"rules": [
+{
+"primary-output": "code/todo_list/CMakeFiles/todo_list.dir/main.cpp.o",
+"requires": [
+]
+}
+],
+"version": 0,
+"revision": 0
+}

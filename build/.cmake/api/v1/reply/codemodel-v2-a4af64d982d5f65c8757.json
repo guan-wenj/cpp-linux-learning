@@ -1,0 +1,76 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.28.3"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "code/todo_list",
+					"jsonFile" : "directory-code.todo_list-Debug-89149a8f32bb6ac48c1a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.28.3"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "code/todo_list",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "cpp_linux_learning",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "todo_list::@8a76f8b4a0bc5469ac2a",
+					"jsonFile" : "target-todo_list-Debug-1162be7ba681fe0d70e5.json",
+					"name" : "todo_list",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/guan/code/cpp/cpp-linux-learning/build",
+		"source" : "/home/guan/code/cpp/cpp-linux-learning"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

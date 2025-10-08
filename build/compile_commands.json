@@ -1,0 +1,26 @@
+[
+{
+  "directory": "/home/guan/code/cpp/cpp-linux-learning/build",
+  "command": "/usr/bin/g++ -g -std=gnu++23 -fmodules-ts -fmodule-mapper=code/todo_list/CMakeFiles/todo_list.dir/entity.cpp.o.modmap -MD -fdeps-format=p1689r5 -x c++ -o code/todo_list/CMakeFiles/todo_list.dir/entity.cpp.o -c /home/guan/code/cpp/cpp-linux-learning/code/todo_list/entity.cpp",
+  "file": "/home/guan/code/cpp/cpp-linux-learning/code/todo_list/entity.cpp",
+  "output": "code/todo_list/CMakeFiles/todo_list.dir/entity.cpp.o"
+},
+{
+  "directory": "/home/guan/code/cpp/cpp-linux-learning/build",
+  "command": "/usr/bin/g++ -g -std=gnu++23 -fmodules-ts -fmodule-mapper=code/todo_list/CMakeFiles/todo_list.dir/list_file.cpp.o.modmap -MD -fdeps-format=p1689r5 -x c++ -o code/todo_list/CMakeFiles/todo_list.dir/list_file.cpp.o -c /home/guan/code/cpp/cpp-linux-learning/code/todo_list/list_file.cpp",
+  "file": "/home/guan/code/cpp/cpp-linux-learning/code/todo_list/list_file.cpp",
+  "output": "code/todo_list/CMakeFiles/todo_list.dir/list_file.cpp.o"
+},
+{
+  "directory": "/home/guan/code/cpp/cpp-linux-learning/build",
+  "command": "/usr/bin/g++ -g -std=gnu++23 -fmodules-ts -fmodule-mapper=code/todo_list/CMakeFiles/todo_list.dir/service.cpp.o.modmap -MD -fdeps-format=p1689r5 -x c++ -o code/todo_list/CMakeFiles/todo_list.dir/service.cpp.o -c /home/guan/code/cpp/cpp-linux-learning/code/todo_list/service.cpp",
+  "file": "/home/guan/code/cpp/cpp-linux-learning/code/todo_list/service.cpp",
+  "output": "code/todo_list/CMakeFiles/todo_list.dir/service.cpp.o"
+},
+{
+  "directory": "/home/guan/code/cpp/cpp-linux-learning/build",
+  "command": "/usr/bin/g++ -g -std=gnu++23 -fmodules-ts -fmodule-mapper=code/todo_list/CMakeFiles/todo_list.dir/main.cpp.o.modmap -MD -fdeps-format=p1689r5 -x c++ -o code/todo_list/CMakeFiles/todo_list.dir/main.cpp.o -c /home/guan/code/cpp/cpp-linux-learning/code/todo_list/main.cpp",
+  "file": "/home/guan/code/cpp/cpp-linux-learning/code/todo_list/main.cpp",
+  "output": "code/todo_list/CMakeFiles/todo_list.dir/main.cpp.o"
+}
+]
