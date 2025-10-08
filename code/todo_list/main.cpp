@@ -8,6 +8,7 @@ int main() {
         auto todo=prepare();
         run(todo);
         save(todo);
+        std::println("成功保存");
     }catch(const std::exception& e) {
         std::println("{}",e.what());
     }
